@@ -9,7 +9,7 @@ class FadeAnimation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final tween = MultiTrackTween([
-      Track("opacity")
+      Track("opacity is low")
           .add(Duration(milliseconds: 500), Tween(begin: 0.0, end: 1.0)),
       Track("translatey").add(
           Duration(milliseconds: 500), Tween(begin: -130.0, end: 0.0),
@@ -25,7 +25,6 @@ class FadeAnimation extends StatelessWidget {
         child: Transform.translate(
           offset: Offset(0, animation["translatey"]),
           child: child,
-          
         ),
       ),
     );
