@@ -5,6 +5,10 @@ void main() {
 }*/
 
 import 'package:flutter/material.dart';
+import 'package:job_application_project/Btechpage.dart';
+import 'package:job_application_project/HomeApp.dart';
+import 'package:job_application_project/InfoPage.dart';
+import 'package:job_application_project/Loginsec.dart';
 //import 'package:my_demo/last.dart';
 //import 'package:my_demo/stream/btech.dart';
 //import 'package:my_demo/animations/loginsec.dart';
@@ -24,10 +28,11 @@ class MyApp extends StatelessWidget {
  theme: ThemeData(
  primarySwatch: Colors.cyan,
  ),
- home: HomePage(),
+ //home: HomePage(),
  //home: LoginScreen(),
- //home: Btech(),
- //home:HomeApp(),
+ //home: BtechPage(),
+ //home: InfoPage()
+ home:HomeApp(),
  );
  }
 }

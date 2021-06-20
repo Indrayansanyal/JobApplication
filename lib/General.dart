@@ -31,8 +31,7 @@ class General extends StatelessWidget {
  false, context),
  _buildCard('Honours(BSC)', '\Chemistry', '', false, false, context),
  _buildCard('Honours(BSC)', '\Biology', '', false, false, context),
- _buildCard('Honours(BSC)', '\Computer Science', '', false, false, context
-),
+ _buildCard('Honours(BCom)', '\Accountancy', '', false, false, context)
  ],
  )),
  SizedBox(height: 5.0)

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294026675344",
+    "project_id": "job-application-ff724",
+    "storage_bucket": "job-application-ff724.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294026675344:android:7af65927522d67a7f6c415",
+        "android_client_info": {
+          "package_name": "com.example.job_application_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294026675344-a6sp4mim87o92vajeao0ool6emih91nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnAFdbsZqpsQs3objYn1WCpk8oIldVCsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294026675344-a6sp4mim87o92vajeao0ool6emih91nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

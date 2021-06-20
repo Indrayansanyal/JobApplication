@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:job_application_project/Loginsec.dart';
 import 'package:job_application_project/category.dart';
+import 'package:job_application_project/InfoPage.dart';
 
 import 'Navi1.dart';
 //import 'package:flutter_rating_bar/flutter_rating_bar.dart';
@@ -20,6 +21,7 @@ class _HomeAppState extends State<HomeApp> {
     NewHome(),
     LoginScreen(),
     Category(),
+    //InfoPage(),
   ];
   @override
   Widget build(BuildContext context) {
